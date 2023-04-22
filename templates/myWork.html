@@ -1,0 +1,100 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{url_for('static', filename='assets/img/work.jpg')}}')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1> My Work </h1>
+                            <span class="subheading"> Table of Specification and Lesson Plans </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="#">
+                          <a href="#!"><img class="img-fluid" src="{{url_for('static', filename='assets/img/semidetailed.jpg')}}" alt="..." /></a>
+                            <h2 class="post-title">Working with my <em> Semi-Detailed Lesson Plan </em>  </h2>
+                            <h3 class="post-subtitle"> Semi-Detailed Lesson plan about Perform simple calculation conversion </h3>
+                        </a>
+                        <p class="post-meta">
+                            By: 
+                        <a href="https://www.facebook.com/jbambao09">James Reniel Bambao</a>
+                            on March 12, 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+          
+          <div class="container"> <a class="btn btn-primary text-uppercase" href="{{ 
+url_for('static', filename='download/DETAILED LESSON PLAN - BAMBAO.pdf') }}" download="Bambao-Semi-Detailed-LessonPlan">You can download the (PDF) files Semi-Detailed Lesson Plan</a> </div>
+          <hr class="my-4" />
+        </div>
+                     
+                      <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="#">
+                          <a href="#!"><img class="img-fluid" src="{{url_for('static', filename='assets/img/detailed.jpg')}}" alt="..." /></a>
+                            <h2 class="post-title">Working with my <em> Detailed Lesson Plan </em>  </h2>
+                            <h3 class="post-subtitle"> Detailed Lesson plan about Excel interface and basic function review </h3>
+                        </a>
+                        <p class="post-meta">
+                            By: 
+                        <a href="https://www.facebook.com/jbambao09">James Reniel Bambao</a>
+                            on March 30, 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+          
+          <div class="container"> <a class="btn btn-primary text-uppercase" href="{{ 
+url_for('static', filename='download/Lesson-plan-ICTcom-EXCEL.pdf') }}" download="Bambao-DetailedLessonPlan">You can download the (PDF) Detailed Lesson Plan files</a> </div>
+          <hr class="my-4" />
+        </div>
+          <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="#">
+                          <a href="#!"><img class="img-fluid" src="{{url_for('static', filename='assets/img/tos.jpg')}}" alt="..." /></a>
+                            <h2 class="post-title">Working with my <em> Table of Specification </em>  </h2>
+                            <h3 class="post-subtitle"> Multiple choices item examination </h3>
+                        </a>
+                        <p class="post-meta">
+                            By: 
+                        <a href="https://www.facebook.com/jbambao09">James Reniel Bambao</a>
+                            on April 13, 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+          
+          <div class="container"> <a class="btn btn-primary text-uppercase" href="{{ 
+url_for('static', filename='download/Table_of_specification-BAMBAO-Caregiving.pdf') }}" download="TOS - Home Economics Caregiving">You can download the (PDF) files Table of Specification</a> </div>
+          <hr class="my-4" />
+        </div>                   
+      </div>
+    </div>
+ </div>
+          
+
+        </main>
+
+{% endblock content %}

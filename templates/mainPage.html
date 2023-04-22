@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('{{url_for('static', filename='assets/img/home-bg.jpg')}}')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1> Home Economics </h1>
+                            <span class="subheading">Reflection about the Demo-Teaching</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                      <a href="#!"><img class="img-fluid" src="{{url_for('static', filename='assets/img/demo1.jpg')}}" alt="..." /></a>
+                        <a href="/reflection1">
+                            <h2 class="post-title">My thoughts about my Demo-teaching Experience in Home Economics, <em> Reflection 1 </em>  </h2>
+                            <h3 class="post-subtitle"> I thought about creating a website that has valuable information about home economics, like an e-portfolio, to help those teachers who struggle to search for information about home economics. </h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="https://www.facebook.com/jbambao09">James Reniel Bambao</a>
+                            on Feb 27, 2023
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                      <a href="#!"><img class="img-fluid" src="{{url_for('static', filename='assets/img/demo2.jpg')}}" alt="..." /></a>
+                        <a href="/reflection2"><h2 class="post-title">My thoughts about my Demo-teaching Experience in Home Economics, <em> Reflection 2 </em>  </h2>
+                        <h3 class="post-subtitle"> I understand that we should not just focus on finding the answer, but rather on how we can solve the problem and come up with a solution.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="https://www.facebook.com/jbambao09">James Reniel Bambao</a>
+                            on March 16, 2023
+                        </p>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                      <a href="#!"><img class="img-fluid" src="{{url_for('static', filename='assets/img/demo3.jpg')}}" alt="..." /></a>
+                        <a href="/reflection3">
+                          
+                            <h2 class="post-title">My thoughts about my Demo-teaching Experience in Home Economics, <em> Reflection 3 </em>  </h2>
+                        <h3 class="post-subtitle"> I should always be on time to be a good role model for students, and in some cases, I need to show empathy and patience when I teach because every student is different.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="https://www.facebook.com/jbambao09">James Reniel Bambao</a>
+                            on March 23, 2023
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                      <a href="#!"><img class="img-fluid" src="{{url_for('static', filename='assets/img/demo4.jpg')}}" alt="..." /></a>
+                        <a href="/reflection4">
+                            <h2 class="post-title">My thoughts about my Demo-teaching Experience in Home Economics, <em> Reflection 4 </em>  </h2>
+                        <h3 class="post-subtitle"> A positive classroom environment can greatly impact the learning process and keep students motivated. Lesson plans help us prepare to teach a particular topic.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="https://www.facebook.com/jbambao09">James Reniel Bambao</a>
+                            on March 31, 2023
+                        </p>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Pager-->
+                    <div class="container"><a class="btn btn-primary text-uppercase" href="https://www.facebook.com/jbambao09">Soon I will post Contact me if you're Interested→</a></div>
+                </div>
+            </div>
+        </div>
+
+{% endblock content %}
